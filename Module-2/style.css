@@ -1,0 +1,90 @@
+body{
+	margin:0;
+	border:0;
+	font-family: "Comic Sans MS", cursive, sans-serif;
+}
+*{
+	box-sizing: border-box;
+}
+.heading{
+	float:right;
+	border: 4px solid brown;
+	height:40px;
+	width:120px;
+	margin-right:36px;
+	margin-top: 1px;
+	font-size:20px;
+	padding: 2px;
+	position: relative;
+	text-align: center;
+	overflow:none;
+}
+.Content{
+	
+	height: auto;
+	margin:2.5%;
+	width: 90%;
+	background-color: #ADD8E6;
+    padding:2px;
+    border: 5px solid brown;
+    font-size:16px;
+    padding-top: 55px;
+    white-space: normal;
+    
+}
+h1{
+	text-align: center;
+	color: brown;
+}
+.name2{
+	background-color: #FF6600; 
+}
+.name1{
+	background-color: #FFCC00;
+}
+.name3{
+	background-color: #99FF00;
+}
+.box{
+	width:100%;
+	overflow: none;
+}
+
+/*Large devices only*/
+@media (min-width:992px){
+	.col-lg-4{
+		width: 33%;
+		float:left;
+	}	
+	
+}
+/*medium device*/
+@media (min-width: 768px) and (max-width: 991px)
+{   .col-md-6,.col-md-12 {
+    float: left;
+
+     }
+	.col-md-6{
+		width:50%;
+     }
+	.col-md-12
+	{  margin-left: -10px;
+       width: 105%;
+
+	}
+	.name3{
+      margin-right:71px;
+	}
+}
+/*Small devices*/
+@media (min-width: 0px) and (max-width:767px)
+{
+	.col-sm-12{
+		width:100%;
+		float:left;
+	}
+	.name2,.name3,.name1
+	{
+		margin-right:55px;
+	}
+}
